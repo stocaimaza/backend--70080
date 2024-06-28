@@ -1,0 +1,21 @@
+{
+  "name": "clase--4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Material de la clase 4 del curso de backend en Coderhouse",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^1.6.0",
+    "momentjs": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
