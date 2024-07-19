@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Mate",
+    "description": "El más rico",
+    "price": "1500",
+    "code": "abc123",
+    "stock": 150,
+    "id": 1
+  },
+  {
+    "title": "Pan",
+    "description": "Pan blanco fresco",
+    "price": "300",
+    "code": "def456",
+    "stock": 200,
+    "id": 2
+  },
+  {
+    "title": "Leche",
+    "description": "Leche entera",
+    "price": "800",
+    "code": "ghi789",
+    "stock": 100,
+    "id": 3
+  },
+  {
+    "title": "Arroz",
+    "description": "Arroz blanco",
+    "price": "1200",
+    "code": "jkl012",
+    "stock": 80,
+    "id": 4
+  },
+  {
+    "title": "Azúcar",
+    "description": "Azúcar blanca",
+    "price": "500",
+    "code": "mno345",
+    "stock": 120,
+    "id": 5
+  },
+  {
+    "title": "Café",
+    "description": "Café molido",
+    "price": "2500",
+    "code": "pqr678",
+    "stock": 50,
+    "id": 6
+  },
+  {
+    "title": "Jabón",
+    "description": "Jabón en barra",
+    "price": "700",
+    "code": "stu901",
+    "stock": 150,
+    "id": 7
+  },
+  {
+    "title": "Yogur",
+    "description": "Yogur natural",
+    "price": "600",
+    "code": "vwx234",
+    "stock": 90,
+    "id": 8
+  },
+  {
+    "title": "Aceite",
+    "description": "Aceite de oliva",
+    "price": "2000",
+    "code": "yzw567",
+    "stock": 70,
+    "id": 9
+  },
+  {
+    "title": "Papel higiénico",
+    "description": "Papel higiénico suave",
+    "price": "1500",
+    "code": "abc890",
+    "stock": 120,
+    "id": 10
+  },
+  {
+    "title": "Helado",
+    "description": "De Menta granizada",
+    "price": 5000,
+    "img": "sin imagen",
+    "code": "aaa558",
+    "stock": 300,
+    "category": "Almacen",
+    "status": true,
+    "thumbnails": [],
+    "id": 11
+  }
+]

@@ -1,0 +1,1 @@
+console.log("Funciona tu JS en la parte del front");

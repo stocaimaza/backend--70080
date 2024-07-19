@@ -1,0 +1,15 @@
+<h1>Bienvenidos a Express-Handlebars</h1>
+<p>Mi nombre es  {{usuario.nombre}} </p>
+<p>Mi apellido es {{usuario.apellido}} </p>
+
+{{!-- Usamos condicionales --}}
+
+{{#if usuario.mayorEdad}}
+    <p> Es mayor de edad </p>
+{{else}}
+    <p> Es menor de edad </p>
+{{/if}}
+
+{{!-- Cuando ustedes quieren llamar a un partial, hacen esto: --}}
+
+{{>card}}
