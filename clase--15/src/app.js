@@ -10,6 +10,7 @@
 
 import express from "express";
 import { engine } from "express-handlebars";
+import multer from "multer";
 const app = express(); 
 const PUERTO = 8080; 
 import imagenRouter from "./routes/imagen.router.js"; 
@@ -19,6 +20,16 @@ import "./database.js";
 app.use(express.json());
 app.use(express.urlencoded({extended: true})); 
 app.use(express.static("./src/public"));
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, "./src/public/img") 
+    },
+    filename: (req, file, cb) => {
+        cb(null, file.originalname)
+    }
+})
+app.use(multer({storage}).single("image")); 
+
 
 //Express-Handlebars
 app.engine("handlebars", engine()); 
